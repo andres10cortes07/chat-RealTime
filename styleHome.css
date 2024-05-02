@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+body {
+    background-color: #F0F3FF;     
+    padding: 100px;  
+}
+
+.cont-general {
+    background: #9CFFE5;
+    margin: auto;
+    width: 70%;
+    box-sizing: content-box;
+    padding: 3%;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.33);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.33);
+    text-align: center;
+}
+
+h1 {
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+p {
+    font-family: "Work Sans", sans-serif;
+    line-height: 180%;
+    margin-top: 5%;
+}
+
+button {
+    padding: 15px 70px;
+    margin: 3%;
+    border-radius: 40px;
+    border: 2px solid #211951;
+    background: #836FFF;
+    color: white;
+    font-size: 30px;
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+}
+
+@media screen and (max-width: 768px){
+    body {
+        padding: 2%;
+    }
+
+    .cont-general {
+        margin: 0;
+        width: 95%;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    button {
+        padding: 10px 30px;
+        margin: 3%;
+    }
+}
+
+@media screen and (min-width: 769px){
+    body {
+        padding: 5%;
+    }
+
+    .cont-general {
+        width: 70%;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
